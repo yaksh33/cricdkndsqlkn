@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    background: lightskyblue;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    background-image:linear-gradient(rgba(70, 65, 65, 0.7),rgba(0,0,0,0.7)), url(ab.jpg) ;
+    background-size:cover ;
+    background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+p1{
+  color: lightblue;
+            text-align: center;
+            font-family: Helvetica;
+            font-size: 20px;
+            padding: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.x{
+    float: left;
+    width: 130px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px ;
+}
+
+nav a:hover {
+    color: gold;
+  }
+
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: whitesmoke;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+
+
+  .instagram-link {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+  
+  .instagram-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color:  black;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.card{
+  width: 325px;
+  background-color: transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin: 25px;
+}
+.card img{
+   width: 100%;
+   height: auto;
+}
+.card-content{
+  padding: 10px;
+}
+.card content h3{
+  font-size: 28px;
+margin-bottom: 8px;
+}
+.mot{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.wic{
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.cric{
+  width: 435px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 17px;
+}
+.six{
+  width: 435px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 17px;
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+  display: flex;
+}
+.column{
+  flex: 33.33%;
+  padding: 5px;
+}
+.k{
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.b{
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.hit{
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.c{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  height: 350px;
+  margin-right: auto;
+  padding: 10px;
+}
+.dh{
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
